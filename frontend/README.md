@@ -27,6 +27,23 @@ Launches the test runner in interactive watch mode.
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
+## Dependency Upgrades
+
+This template uses React 18.x with `react-scripts` 5 for compatibility and a minimal toolchain.
+
+- Updated dependencies (Nov 2025):
+  - `react` 18.x
+  - `react-dom` 18.x
+  - `react-scripts` 5.x
+
+Why not React 19? `react-scripts` 5 does not officially support React 19. Upgrading to React 19 would require migrating away from CRA (e.g., to Vite) or using community forks. The current setup builds successfully and remains lightweight.
+
+Tip: Occasionally refresh Browserslist data:
+```
+npx update-browserslist-db@latest
+```
+(Informational warnings may appear during build if the database is stale.)
+
 ## Customization
 
 ### Colors
