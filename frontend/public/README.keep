@@ -1,0 +1,1 @@
+This folder serves static assets under the app root. We place Figma extracted assets under /assets/* so that paths like /assets/figmaimages/... resolve at runtime.
